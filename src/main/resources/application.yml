@@ -1,4 +1,12 @@
 spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 0
+    pool.max-idle: 8 # pool settings ...
+    pool.min-idle: 1
+    pool.max-active: 8
+    pool.max-wait: -1
   #\u6570\u636E\u6E90
   datasource:
     druid:
