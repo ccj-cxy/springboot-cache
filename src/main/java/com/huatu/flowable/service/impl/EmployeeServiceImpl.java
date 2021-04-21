@@ -1,8 +1,8 @@
-package com.snk.cache.service.impl;
+package com.huatu.flowable.service.impl;
 
-import com.snk.cache.bean.Employee;
-import com.snk.cache.dao.EmployeeMapper;
-import com.snk.cache.service.EmployeeService;
+import com.huatu.flowable.bean.Employee;
+import com.huatu.flowable.dao.EmployeeMapper;
+import com.huatu.flowable.service.EmployeeService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cache.annotation.CacheConfig;
@@ -11,13 +11,8 @@ import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.cache.annotation.Caching;
 import org.springframework.stereotype.Service;
-import org.springframework.util.CollectionUtils;
 
 import java.io.Serializable;
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.stream.Collector;
-import java.util.stream.Collectors;
 
 /**
  * <p>

@@ -1,8 +1,8 @@
-package com.snk.cache.service.impl;
+package com.huatu.flowable.service.impl;
 
-import com.snk.cache.bean.Department;
-import com.snk.cache.dao.DepartmentMapper;
-import com.snk.cache.service.DepartmentService;
+import com.huatu.flowable.bean.Department;
+import com.huatu.flowable.dao.DepartmentMapper;
+import com.huatu.flowable.service.DepartmentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.cache.annotation.CacheConfig;
 import org.springframework.cache.annotation.CacheEvict;

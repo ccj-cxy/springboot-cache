@@ -1,6 +1,6 @@
-package com.snk.cache.dao;
+package com.huatu.flowable.dao;
 
-import com.snk.cache.bean.Department;
+import com.huatu.flowable.bean.Department;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

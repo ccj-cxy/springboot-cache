@@ -5,7 +5,7 @@
  * All rights reserved.*/
 
 
-package com.snk.cache.config;
+package com.huatu.flowable.config;
 
 import org.springframework.cache.interceptor.KeyGenerator;
 import org.springframework.context.annotation.Bean;

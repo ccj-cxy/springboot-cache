@@ -1,6 +1,6 @@
-package com.snk.cache.service;
+package com.huatu.flowable.service;
 
-import com.snk.cache.bean.Department;
+import com.huatu.flowable.bean.Department;
 import com.baomidou.mybatisplus.extension.service.IService;
 
 /**

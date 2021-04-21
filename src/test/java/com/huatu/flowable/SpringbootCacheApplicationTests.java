@@ -1,7 +1,7 @@
-package com.snk.cache;
+package com.huatu.flowable;
 
-import com.snk.cache.bean.Employee;
-import com.snk.cache.dao.EmployeeMapper;
+import com.huatu.flowable.bean.Employee;
+import com.huatu.flowable.dao.EmployeeMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

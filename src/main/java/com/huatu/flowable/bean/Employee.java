@@ -1,10 +1,10 @@
-package com.snk.cache.bean;
+package com.huatu.flowable.bean;
 
-import com.baomidou.mybatisplus.annotation.Version;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
+import org.springframework.beans.factory.BeanNameAware;
 
 /**
  * <p>
@@ -17,7 +17,7 @@ import lombok.experimental.Accessors;
 @Data
 @EqualsAndHashCode(callSuper = false)
 @Accessors(chain = true)
-public class Employee implements Serializable {
+public class Employee implements Serializable, BeanNameAware {
 
     private static final long serialVersionUID = 1L;
 
@@ -31,5 +31,10 @@ public class Employee implements Serializable {
 
     private Integer dId;
 
+    private String beanName;
+    @Override
+    public void setBeanName(String name) {
+        this.beanName = name;
+    }
 
 }

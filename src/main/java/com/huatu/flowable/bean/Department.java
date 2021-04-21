@@ -1,6 +1,5 @@
-package com.snk.cache.bean;
+package com.huatu.flowable.bean;
 
-import com.baomidou.mybatisplus.annotation.Version;
 import java.io.Serializable;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

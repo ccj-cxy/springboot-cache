@@ -1,5 +1,6 @@
-package com.snk.cache;
+package com.huatu.flowable;
 
+import com.huatu.flowable.bean.Department;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cache.annotation.EnableCaching;

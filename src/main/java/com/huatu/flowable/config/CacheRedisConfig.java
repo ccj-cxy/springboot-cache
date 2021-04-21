@@ -4,7 +4,7 @@
  * http://www.myhuatu.com/
  * All rights reserved.
  */
-package com.snk.cache.config;
+package com.huatu.flowable.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

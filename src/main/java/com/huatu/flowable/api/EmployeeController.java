@@ -1,16 +1,15 @@
-package com.snk.cache.api;
+package com.huatu.flowable.api;
 
 
-import com.snk.cache.bean.Employee;
-import com.snk.cache.service.EmployeeService;
+import com.huatu.flowable.bean.Employee;
+import com.huatu.flowable.faced.FlowableUtil;
+import com.huatu.flowable.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 import org.springframework.web.bind.annotation.RestController;
 
-import javax.websocket.server.PathParam;
 
 /**
  * <p>
@@ -41,8 +40,11 @@ public class EmployeeController {
         return employeeService.updateEmp(employee);
     }
 
+    @Autowired
+    FlowableUtil flowableUtil;
     @GetMapping("/deleteEmp/{id}")
     public String deleteEmp(@PathVariable("id") Integer id){
+        flowableUtil.image("123123");
         employeeService.deleteEmp(id);
         return "seccuss";
     }
